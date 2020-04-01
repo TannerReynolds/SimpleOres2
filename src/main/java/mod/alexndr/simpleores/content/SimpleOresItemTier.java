@@ -13,7 +13,7 @@ public enum SimpleOresItemTier implements IItemTier
    TIN(1, 220, 3.5F, 1.0F, 8, ()->{ return Ingredient.fromItems( ModItems.tin_ingot); }),
    MYTHRIL(2, 800, 8.0F, 3.0F, 12, ()->{ return Ingredient.fromItems( ModItems.mythril_ingot); }),
    ADAMANTIUM(2, 1150, 14.0F, 3.0F, 3, ()->{ return Ingredient.fromItems( ModItems.adamantium_ingot); }),
-   ONYX(4, 3280, 10.0F, 5.0F, 15, ()->{ return Ingredient.fromItems( ModItems.onyx_gem); });
+   ONYX(4, 6000, 10.0F, 6.2F, 15, ()->{ return Ingredient.fromItems( ModItems.onyx_gem); });
 
    private final int harvestLevel;
    private final int maxUses;
