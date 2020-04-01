@@ -25,7 +25,7 @@ public class OreGeneration
     private static final CountRangeConfig adamantium_cfg = new CountRangeConfig(4, 1, 0, 20);
     private static final int adamantium_veinsize = 4;
     private static final CountRangeConfig onyx_cfg = new CountRangeConfig(1, 10, 0, 128);
-    private static final int onyx_veinsize = 1;
+    private static final int onyx_veinsize = 2;
 
     /**
      * called in setup to generate overworld ores; should respect config
